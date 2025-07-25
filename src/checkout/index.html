@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="icon" href="/images/icon.jpg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="../js/checkout.js" type="module"></script>
+  </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+    <nav>
+      <div class="bar-container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="/index.html">Portfolio</a>
+        <a href="/shop/index.html">Shop</a>
+        <a href="/aboutme/index.html">About Me</a>
+        <a href="/contactme/index.html">Contact Me</a>
+      </div>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+          const dropdown = document.getElementById("myDropdown");
+          dropdown.classList.toggle("show");
+        }
+      </script>
+    </nav>
+
+    <main class="divider checkout">
+      <div class="checkout-summary"></div>
+      <section class="checkout-form">
+        <h2>Review & Place your Order</h2>
+        <form name="checkout">
+          <fieldset>
+            <legend>Shipping</legend>
+            <div class="checkout__name">
+              <label for="fname">First Name</label>
+              <input id="fname" name="fname" required />
+              <label for="lname">Last Name</label>
+              <input id="lname" name="lname" required />
+            </div>
+            <div class="checkout__address">
+              <label for="street">Street</label>
+              <input id="street" name="street" required />
+              <label for="city">City</label>
+              <input id="city" name="city" required />
+              <label for="state">State</label>
+              <input id="state" name="state" required />
+              <label for="zip">Zip</label>
+              <input id="zip" name="zip" required />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Payment</legend>
+            <label for="cardNumber">Card number</label>
+            <input id="cardNumber" name="cardNumber" required />
+            <label for="expiration">Expiration</label>
+            <input id="expiration" name="expiration" required />
+            <label for="code">Security Code</label>
+            <input id="code" name="code" required />
+          </fieldset>
+          <fieldset class="checkout-summary">
+            <legend>Order Summary</legend>
+            <ul>
+              <!-- Discount Line -->
+              <li>
+                <span>Weekend Sale (20% Off)</span>
+                <p id="discount" style="color: green;"></p>
+              </li>
+              <li>
+                <span>Item Subtotal</span>
+                <p name="cartTotal" id="cartTotal"></p>
+              </li>
+              <li>
+                <span>Shipping Estimate</span>
+                <p id="shipping"></p>
+              </li>
+              <li>
+                <span>Tax</span>
+                <p id="tax"></p>
+              </li>
+              <li>
+                <span><b>Order Total</b></span>
+                <p id="orderTotal"></p>
+              </li>
+            </ul>
+          </fieldset>
+
+          <button id="checkoutSubmit" type="submit">Checkout</button>
+          <br /><br />
+        </form>
+      </section>
+    </main>
+
+    <footer id="main-footer"></footer>
+  </body>
+</html>

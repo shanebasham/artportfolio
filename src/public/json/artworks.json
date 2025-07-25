@@ -1,0 +1,377 @@
+[
+    {
+        "Id": "art24",
+        "name": "THY WILL BE DONE",
+        "src": "/images/art24.jpg",
+        "date": "12/15/22",
+        "medium": "ACRYLIC",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$2,800"
+    },
+    {
+        "Id": "art23",
+        "name": "THE GREAT PROTECTOR AND COMFORTER",
+        "src": "/images/art23.jpg",
+        "date": "8/22/22",
+        "medium": "ACRYLIC",
+        "size": "12X12",
+        "description": "",
+        "prints": {
+        "8x8": "$35",
+        "12x12": "$45",
+        "24x24": "$55"
+        },
+        "original": "$18,000"
+    },
+    {
+        "Id": "art26",
+        "name": "BABI IM",
+        "src": "/images/art26.jpg",
+        "date": "1/07/21",
+        "medium": "CHARCOAL",
+        "size": "8.5X6",
+        "description": "",
+        "prints": {
+        "8.5x6": "$25",
+        "12x8": "$35",
+        "48x36": "$55"
+        },
+        "original": "SOLD"
+    },
+    {
+        "Id": "art27",
+        "name": "HEAR HIM",
+        "src": "/images/art27.jpg",
+        "date": "9/09/20",
+        "medium": "SHARPIE",
+        "size": "72X48",
+        "description": "",
+        "prints": {
+        "12x8": "$35",
+        "24x16": "$45",
+        "48x36": "$55"
+        },
+        "original": "$25,000"
+    },
+    {
+        "Id": "art19",
+        "name": "DARE",
+        "src": "/images/art19.jpg",
+        "date": "3/16/19",
+        "medium": "WATERCOLOR INK CRAYON",
+        "size": "12X12",
+        "description": "",
+        "prints": {
+        "8x8": "$25",
+        "12x12": "$35",
+        "24x24": "$55"
+        },
+        "original": "SOLD"
+    },
+    {
+        "Id": "art1",
+        "name": "ABSTRACT FOREST",
+        "src": "/images/art1.png",
+        "date": "12/20/17",
+        "medium": "WATERCOLOR",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+        "8x12": "$35",
+        "12x24": "$45",
+        "24x48": "$55"
+        },
+        "original": "SOLD"
+    },
+    {
+        "Id": "art5",
+        "name": "OUT OF THE DEEP",
+        "src": "/images/art5.jpg",
+        "date": "6/11/18",
+        "medium": "WATERCOLOR PENCILS",
+        "size": "12X8",
+        "description": "",
+        "prints": {
+        "12x8": "$15",
+        "24x12": "$25",
+        "48x24": "$35"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art6",
+        "name": "TOPOGRAPHY OF THE MIND",
+        "src": "/images/art6.jpg",
+        "date": "8/5/18",
+        "medium": "WATERCOLOR PENCILS",
+        "size": "8.5X12",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art7",
+        "name": "4D HEAD JAMB",
+        "src": "/images/art7.jpg",
+        "date": "8/8/18",
+        "medium": "CONTE",
+        "size": "12X8.5",
+        "description": "",
+        "prints": {
+        "12x8": "$25",
+        "24x12": "$35",
+        "48x24": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art4",
+        "name": "DESERT SUNSET",
+        "src": "/images/art4.jpg",
+        "date": "8/18/18",
+        "medium": "WATERCOLOR",
+        "size": "6X8.5",
+        "description": "",
+        "prints": {
+        "6x18": "$25",
+        "8x12": "$35",
+        "12x24": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art15",
+        "name": "ABSTRACT REFLECTIONS",
+        "src": "/images/art15.jpg",
+        "date": "8/31/18",
+        "medium": "WATERCOLOR PEN",
+        "size": "12X24",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art22",
+        "name": "CAMS EXPRESSION",
+        "src": "/images/art22.jpg",
+        "date": "9/4/18",
+        "medium": "ACRYLIC",
+        "size": "16X13",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art8",
+        "name": "STARRY DAY",
+        "src": "/images/art8.jpg",
+        "date": "9/11/18",
+        "medium": "ACRYLIC",
+        "size": "12X24",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art9",
+        "name": "RISE OF THE SEA GNOMES",
+        "src": "/images/art9.jpg",
+        "date": "10/29/18",
+        "medium": "WATERCOLOR",
+        "size": "9X24",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art20",
+        "name": "DIMENSIONAL STAIRCASE",
+        "src": "/images/art20.jpg",
+        "date": "8/12/18",
+        "medium": "OIL PASTEL",
+        "size": "12X8.5",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art10",
+        "name": "LIVING IN THE LANDSCAPE",
+        "src": "/images/art10.jpg",
+        "date": "11/15/18",
+        "medium": "CHARCOAL",
+        "size": "24X48",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art16",
+        "name": "TORN HEART",
+        "src": "/images/art16.jpg",
+        "date": "10/21/18",
+        "medium": "PEN",
+        "size": "6X8.5",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art11",
+        "name": "BIRTH OF A DESERT",
+        "src": "/images/art11.jpg",
+        "date": "12/11/18",
+        "medium": "CHARCOAL COLORED PENCILS",
+        "size": "12X18",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12x24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art12",
+        "name": "PICASSO IN 6TH",
+        "src": "/images/art12.jpg",
+        "date": "12/15/18",
+        "medium": "ACRYLIC",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+        "8x12": "$25",
+        "12xx24": "$35",
+        "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art13",
+        "name": "TENTACLE FOREST",
+        "src": "/images/art13.jpg",
+        "date": "1/24/19",
+        "medium": "ACRYLIC",
+        "size": "24X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art21",
+        "name": "UNDER THE EUROPA SEA",
+        "src": "/images/art21.jpg",
+        "date": "1/16/19",
+        "medium": "WATERCOLOR INK",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art17",
+        "name": "ABSTRACT DESERT",
+        "src": "/images/art17.jpg",
+        "date": "2/26/19",
+        "medium": "WATERCOLOR",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art14",
+        "name": "SLUMBERING REFLECTION",
+        "src": "/images/art14.jpg",
+        "date": "3/6/19",
+        "medium": "ACRYLIC",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art18",
+        "name": "LOVING LIFE ON LO",
+        "src": "/images/art18.jpg",
+        "date": "5/7/19",
+        "medium": "OIL PASTEL",
+        "size": "24X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    },
+    {
+        "Id": "art25",
+        "name": "ABSTRACT BEACH",
+        "src": "/images/art25.jpg",
+        "date": "6/24/19",
+        "medium": "WATERCOLOR",
+        "size": "8X12",
+        "description": "",
+        "prints": {
+            "8x12": "$25",
+            "12x24": "$35",
+            "24x48": "$55"
+        },
+        "original": "$800"
+    }
+]

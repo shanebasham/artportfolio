@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Me</title>
+      <link rel="icon" href="/images/icon.jpg">
+      <link rel="stylesheet" href="/css/style.css">
+      <script src="../js/checkout.js" type="module"></script>
+    </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+        <nav>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <div id="myDropdown" class="dropdown-content">
+                <a href="/index.html">Portfolio</a>
+                <a href="/shop/index.html">Shop</a>
+                <a href="/aboutme/index.html">About Me</a>
+                <a href="/contactme/index.html">Contact Me</a>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                    const dropdown = document.getElementById("myDropdown");
+                    dropdown.classList.toggle("show");
+                }
+            </script>
+        </nav>
+
+      <main class="about-me-home-grid">
+        <img class="profile-image" src="/images/profile.jpg" alt="profile image">
+        <div class="aboutme">
+            <h4>
+                Meet the Artist!
+            </h4>
+            <span>Hey everyone! My name is Shane Basham, I am 23 years old, and I was born and raised in Tucson, Arizona. 
+                I love learning new languages, running, cooking, listening to music, playing the piano, and especially making art!
+                Ive been taking art classes since I was 5 years old and have drawn, painted, sculpted, and built my own creations every year since.
+                On this art portfolio there are some of my best artworks displayed that I have created the last few years with a title and short description under the pictures.
+                I hope you enjoy and find some inspiration from my art! If you find an artwork that you really like and would love to have in your home,
+                check out my shop</span>
+            <a href="/shop/index.html" class="p-link">
+                <span><i><em>HERE</em></i></span>
+            </a> 
+            <span>for purchacing details! You can also check out my social media pages on</span>
+            <span>
+                <a href="https://www.facebook.com/art.with.shane" class="p-link">
+                    <span><i><em>FACEBOOK</em></i></span>
+                </a> 
+            </span> 
+            <span> and</span>
+            <span>
+                <a href="https://www.instagram.com/art_with_shane/" class="p-link">
+                    <span><i><em>INSTAGRAM</em></i></span>
+                </a> 
+            </span>
+            <span> to see all of my art posted in order of creation! 
+                Thank you for visiting my website!</span>
+            <p>
+                Contact me here if you have any questions or special requests!
+            </p>
+            <div class="contactmebtn">
+                <a href="/contactme/index.html">
+                    <div class="waviy">
+                        <span style="--i:1">C</span>
+                        <span style="--i:2">O</span>
+                        <span style="--i:3">N</span>
+                        <span style="--i:4">T</span>
+                        <span style="--i:5">A</span>
+                        <span style="--i:6">C</span>
+                        <span style="--i:7">T </span>
+                        <span style="--i:8">  </span>
+                        <span style="--i:9"> M</span>
+                        <span style="--i:10">E</span>
+                        <span style="--i:11">!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer id="main-footer"></footer>
+  </body>
+
+</html>

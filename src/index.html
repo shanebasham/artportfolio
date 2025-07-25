@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shane's Portfolio</title>
+    <link rel="icon" href="/images/icon.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../js/main.js" type="module"></script>
+  </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+        <nav>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <div id="myDropdown" class="dropdown-content">
+                <a href="/index.html">Portfolio</a>
+                <a href="/shop/index.html">Shop</a>
+                <a href="/aboutme/index.html">About Me</a>
+                <a href="/contactme/index.html">Contact Me</a>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                    const dropdown = document.getElementById("myDropdown");
+                    dropdown.classList.toggle("show");
+                }
+            </script>
+        </nav>
+
+      <main class="home-grid">
+        <section class="artwork-detail">
+            <h3 id="artworkName"></h3>
+            <h2 class="divider" id="artworkTitle"></h2>
+            <img id="artworkImage" class="divider myImages" src="" alt="" />
+            <p class="artwork__medium" id="artworkMedium"></p>
+            <p class="artwork__date" id="artworkDate"></p>
+            <p class="artwork__size" id="artworkSize"></p>
+            <p class="artwork__description" id="artworkDescription"></p>
+        </section>
+      </main>
+    <footer id="main-footer"></footer>
+  </body>
+
+</html>

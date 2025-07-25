@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Order Success</title>
+      <link rel="icon" href="/images/icon.jpg" />
+      <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+      <header class="divider" id="main-header"></header>
+      <nav>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <div id="myDropdown" class="dropdown-content">
+                <a href="/index.html">Portfolio</a>
+                <a href="/shop/index.html">Shop</a>
+                <a href="/aboutme/index.html">About Me</a>
+                <a href="/contactme/index.html">Contact Me</a>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                    const dropdown = document.getElementById("myDropdown");
+                    dropdown.classList.toggle("show");
+                }
+            </script>
+        </nav>
+
+      <main class="divider checkout">
+        <h2>Your Order Has Been Sent Successfully!</h2>
+        <div id="checkout"></div>
+      </main>
+
+      <!-- Navigation toggle -->
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+          const dropdown = document.getElementById("myDropdown");
+          dropdown.classList.toggle("show");
+        }
+      </script>
+
+      <script type="module">
+        import { loadHeaderFooter } from "../js/utils.mjs";
+        loadHeaderFooter();
+      </script>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const artwork = JSON.parse(localStorage.getItem("checkoutArtwork"));
+          const checkoutDiv = document.getElementById("checkout");
+          if (!checkoutDiv) {
+            console.error("checkoutDiv not found");
+            return;
+          }
+          if (!artwork) {
+            checkoutDiv.innerHTML = "<p>Purchase Unsuccessful</p>";
+            return;
+          }
+          checkoutDiv.innerHTML = `
+            <img src="${artwork.image}" alt="${artwork.name}" style="max-width:400px;">
+            <p><strong>Artwork:</strong> ${artwork.name}</p>
+          `;
+
+          // Remove saved artwork only after using it
+          localStorage.removeItem("checkoutArtwork");
+        });
+      </script>
+      <footer id="main-footer"></footer>
+    </body>
+</html>

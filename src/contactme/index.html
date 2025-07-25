@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Me</title>
+      <link rel="icon" href="/images/icon.jpg">
+      <link rel="stylesheet" href="/css/style.css">
+      <script src="../js/checkout.js" type="module"></script>
+    </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+        <nav>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <div id="myDropdown" class="dropdown-content">
+                <a href="/index.html">Portfolio</a>
+                <a href="/shop/index.html">Shop</a>
+                <a href="/aboutme/index.html">About Me</a>
+                <a href="/contactme/index.html">Contact Me</a>
+            </div>
+            <script>
+                function myFunction(x) {
+                    x.classList.toggle("change");
+                    const dropdown = document.getElementById("myDropdown");
+                    dropdown.classList.toggle("show");
+                }
+            </script>
+        </nav>
+
+      <main>
+        <div id="feedback">
+        <h2>Send me a message or send me an art request!</h2>
+        <h2>A quarter of the artworks I have made were requested by others!<br><br><br></h2>
+        <form id="contactForm">
+            <ul>
+                <li>
+                    <input type="text" id="name" name="user_name" placeholder="Name">
+                </li>
+                <li>
+                    <input type="text" id="mail" name="user_email" placeholder="Email">
+                </li>
+                <li>
+                    <textarea id="msg" name="user_message" 
+                    required
+                    minlength="1" placeholder="Write your message here"></textarea>
+                </li>
+                <li class="form_button">
+                    <button type="submit">Send to Shane!</button>
+                </li>
+            </ul>
+        </form>
+        <br>
+                <script>
+            document.getElementById("contactForm").addEventListener("submit", async function(e) {
+            e.preventDefault();
+
+            const formData = {
+                user_name: document.getElementById("name").value,
+                user_email: document.getElementById("mail").value,
+                user_message: document.getElementById("msg").value
+            };
+
+            const res = await fetch("http://localhost:3000/api/send-email", {
+                method: "POST",
+                headers: {
+                "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
+
+            const result = await res.json();
+            if (res.ok) {
+                alert("Thank you for your message, " + formData.user_name + "! I will get back to you as soon as possible.");
+
+            } else {
+                alert("Failed to send message: " + result.error);
+            }
+            });
+            </script>
+        </div>
+    </main>
+    <footer id="main-footer"></footer>
+  </body>
+
+</html>

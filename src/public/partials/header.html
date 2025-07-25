@@ -1,0 +1,82 @@
+<a id="logo_link" href="/index.html">
+    <img class="logo" src="/images/profileimage.jpg" alt="Logo image">
+    <h1>Art With Shane</h1>
+</a>
+
+<div class="auth-container" id="authContainer">
+  <button id="loginBtn" class="login">Login</button>
+</div>
+
+<div id="id01" class="modal" style="display:none;">
+  <div id="loginFormContainer">
+    <form id="loginForm" class="modal-content animate">
+      <div class="imgcontainer">
+        <img src="/images/img_avatar.jpg" alt="Avatar" class="avatar" />
+      </div>
+      <div class="container">
+        <label><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="uname"
+          id="uname"
+          required
+        />
+        <label><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" id="remember" />
+          Remember me
+        </label>
+      </div>
+      <div class="container">
+        <button type="button" id="cancelBtn" class="cancelbtn">
+          Cancel
+        </button>
+        <span class="psw">
+          <button type="button" id="showCreateAccountBtn" class="toggle-modal-link">
+            Don't have an account?
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
+
+  <div id="createAccountFormContainer" style="display:none;">
+    <form id="createAccountForm" class="modal-content animate">
+      <h2 style="text-align: center; color: white;"><br>REGISTER YOUR ACCOUNT<br><br></h2>
+      <div class="container">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" id="registerUsername" required />
+        <label><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" id="email" required />
+        <label><b><br><br>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="newPassword" required />
+        <label><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" id="confirmPassword" required />
+        <button type="submit">Create Account</button>
+      </div>
+      <div class="container">
+        <button
+          type="button"
+          id="cancelCreateAccountBtn"
+          class="cancelbtn"
+        >
+          Cancel
+        </button>
+        <span>
+          <button type="button" id="showLoginBtn" style="background:none; border:none; color:blue; cursor:pointer; padding:0;">
+            Already have an account?
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
+</div>
